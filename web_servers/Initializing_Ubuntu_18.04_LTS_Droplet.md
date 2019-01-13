@@ -25,7 +25,7 @@ $ adduser sven
 
 We now need to give the new user root privileges.
 ```
-$ user mod -aG sudo sven
+$ usermod -aG sudo sven
 ```
 
 
